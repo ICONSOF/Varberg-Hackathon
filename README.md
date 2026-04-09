@@ -10,4 +10,4 @@ Följande filer är för stora för GitHub och finns istället på SharePoint:
 
 **Hämta dem här:** [SharePoint - Stora datafiler](https://iconsof.sharepoint.com/:f:/s/ICONSOFgeneral/IgCTKLMgNuVpQoqnMXjUq5GIAT79DrBcbVU3c5e_zgxEj4Q?e=Muefv3)
 
-Filerna ligger lokalt i mappen `files/eea_t_ied-eprtr_p_2007-2024_v16_r00/` med tillägget `.notgithub` i filnamnet.
+
