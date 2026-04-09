@@ -14,8 +14,9 @@ Denna guide samlar alla datakällor som kan användas direkt utan registrering: 
 - **Licens:** CC0
 - **Exempelanrop:**
   ```
-  https://geodata.naturvardsverket.se/naturvardsregistret/rest/v3/nationalpark
-  https://geodata.naturvardsverket.se/naturvardsregistret/rest/v3/naturreservat
+  https://geodata.naturvardsverket.se/naturvardsregistret/rest/v3/omrade?skyddstypkod=NP
+  https://geodata.naturvardsverket.se/naturvardsregistret/rest/v3/omrade?skyddstypkod=NR
+  https://geodata.naturvardsverket.se/naturvardsregistret/rest/v3/omrade/skyddstyper
   ```
 
 ### SMHI MetObs — Historiska väderobservationer
@@ -32,27 +33,38 @@ Denna guide samlar alla datakällor som kan användas direkt utan registrering: 
   ```
   Parameter 1 = lufttemperatur. Full parameterlista finns på bas-URL:en.
 
-### SMHI MetFcst — Väderprognos 10 dygn
+### SMHI SNOW1g — Väderprognos (ersätter PMP3g)
 
-- **Bas-URL:** `https://opendata-download-metfcst.smhi.se/api`
-- **Data:** Timvis prognos, 15 parametrar (temp, vind, nederbörd, molnighet m.m.)
+- **Bas-URL:** `https://opendata-download-metfcst.smhi.se/api/category/snow1g/version/1`
+- **Data:** Timvis prognos — temp, vind, nederbörd, molnighet m.m.
 - **Format:** JSON
+- **Dokumentation:** `https://opendata.smhi.se/metfcst/snow1gv1/`
 - **Exempelanrop (punkt-prognos):**
   ```
-  https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/12.0/lat/57.7/data.json
+  https://opendata-download-metfcst.smhi.se/api/category/snow1g/version/1/geotype/point/lon/12.0/lat/57.7/data.json
   ```
 
 ### SMHI Mesan — Interpolerad modelldata
 
-- **Bas-URL:** `https://opendata-download-mesan.smhi.se/api`
+- **Bas-URL:** `https://opendata-download-metanalys.smhi.se/api/category/mesan2g/version/2`
 - **Data:** Griddata hela Sverige — temperatur, vind, nederbörd i rutnät
 - **Format:** JSON
+- **Dokumentation:** `https://opendata.smhi.se/metanalys/mesan2gv2/`
+- **Exempelanrop:**
+  ```
+  https://opendata-download-metanalys.smhi.se/api/category/mesan2g/version/2/geotype/point/lon/12.0/lat/57.7/data.json
+  ```
 
 ### SMHI Strång — Solinstrålning
 
-- **Bas-URL:** `https://opendata-download-metanalys.smhi.se/api`
+- **Bas-URL:** `https://opendata-download-metanalys.smhi.se/api/category/strang1g/version/1`
 - **Data:** Global och direkt solinstrålning per koordinat, historisk data
 - **Format:** JSON
+- **Dokumentation:** `https://opendata.smhi.se/metanalys/strang/`
+- **Exempelanrop:**
+  ```
+  https://opendata-download-metanalys.smhi.se/api/category/strang1g/version/1/geotype/point/lon/12.0/lat/57.7/parameter/116/data.json
+  ```
 
 ### Nominatim (OpenStreetMap) — Geocoding
 
@@ -82,8 +94,7 @@ MCP-servrar kopplas in i Claude (och andra AI-klienter) via MCP-protokollet och 
 | **SCB** | 1 200+ statistiktabeller — befolkning, ekonomi, miljö, arbetsmarknad, utbildning m.m. Data från 1950-talet, 312+ regioner. | `https://scb-mcp.onrender.com/mcp` |
 | **OECD** | 5 000+ dataset, 38 OECD-länder, 17 kategorier: ekonomi, hälsa, miljö, utbildning, energi, handel m.m. | `https://oecd-mcp.onrender.com/mcp` |
 
-**Fullständig guide med alla verktyg, promptmallar och installationsinstruktioner finns i MCP-repot:**
-**https://github.com/ICONSOF/MCP**
+**Fullständig guide med alla verktyg, promptmallar och installationsinstruktioner finns i MCP-repot under ICONSOF-organisationen på GitHub.**
 
 ---
 
@@ -113,7 +124,7 @@ Webbsidor med nedladdningsbara Excel/CSV-filer. Inte API:er, men datakällorna �
 | Data | URL |
 |------|-----|
 | Fordonsstatistik | `https://www.transportstyrelsen.se/sv/om-oss/statistik-och-analys/statistik-inom-vagtrafik/fordonsstatistik/` |
-| CO₂-utsläpp nya fordon | `https://www.transportstyrelsen.se/sv/om-oss/statistik-och-analys/statistik-inom-vagtrafik/vaxthusgaser/` |
+| CO₂-utsläpp nya fordon | `https://www.transportstyrelsen.se/sv/om-oss/statistik-och-analys/statistik-inom-vagtrafik/statistik-over-koldioxidutslapp/` |
 | Skrotningsstatistik | `https://www.transportstyrelsen.se/sv/om-oss/statistik-och-analys/statistik-inom-vagtrafik/skrotningsstatistik/` |
 | Öppna data per trafikslag | `https://www.transportstyrelsen.se/sv/om-oss/statistik-och-analys/oppna-data/oppna-data-utifran-trafikslag/` |
 
@@ -169,9 +180,9 @@ https://geodata.naturvardsverket.se/naturvardsregistret/rest/v3/
 
 # SMHI
 https://opendata-download-metobs.smhi.se/api
-https://opendata-download-metfcst.smhi.se/api
-https://opendata-download-mesan.smhi.se/api
-https://opendata-download-metanalys.smhi.se/api
+https://opendata-download-metfcst.smhi.se/api/category/snow1g/version/1
+https://opendata-download-metanalys.smhi.se/api/category/mesan2g/version/2
+https://opendata-download-metanalys.smhi.se/api/category/strang1g/version/1
 
 # Geocoding
 https://nominatim.openstreetmap.org
@@ -179,7 +190,7 @@ https://nominatim.openstreetmap.org
 # Kartbilder
 https://tile.openstreetmap.org/{z}/{x}/{y}.png
 
-# MCP-servrar (se https://github.com/ICONSOF/MCP för detaljer)
+# MCP-servrar
 https://scb-mcp.onrender.com/mcp
 https://oecd-mcp.onrender.com/mcp
 ```
