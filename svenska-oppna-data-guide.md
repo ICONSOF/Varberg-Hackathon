@@ -94,7 +94,8 @@ MCP-servrar kopplas in i Claude (och andra AI-klienter) via MCP-protokollet och 
 | **SCB** | 1 200+ statistiktabeller — befolkning, ekonomi, miljö, arbetsmarknad, utbildning m.m. Data från 1950-talet, 312+ regioner. | `https://scb-mcp.onrender.com/mcp` |
 | **OECD** | 5 000+ dataset, 38 OECD-länder, 17 kategorier: ekonomi, hälsa, miljö, utbildning, energi, handel m.m. | `https://oecd-mcp.onrender.com/mcp` |
 
-**Fullständig guide med alla verktyg, promptmallar och installationsinstruktioner finns i MCP-repot under ICONSOF-organisationen på GitHub.**
+**Fullständig guide med alla verktyg, promptmallar och installationsinstruktioner finns i MCP-repot:**
+**https://github.com/ICONSOF/MCP**
 
 ---
 
