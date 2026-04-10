@@ -155,21 +155,30 @@ Shapefiler kan öppnas i QGIS, ArcGIS, eller bearbetas med Python/GeoPandas. Geo
 
 ### files/eea_t_ied-eprtr_p_2007-2024_v16_r00/
 
-EU:s industriutsläppsdata (IED/E-PRTR) version 16, februari 2026. Utsläppsdata 2007–2024.
+EU:s industriutsläppsdata (IED/E-PRTR) version 16, februari 2026. Utsläppsdata 2007–2024. 33 000+ namngivna industrianläggningar i EU med adress, koordinater, branschkod (NACE) och utsläppsdata.
+
+**Källa:** [EEA Industrial Emissions Data](https://sdi.eea.europa.eu/data/3bbf28cb-70e8-4073-8fe9-8c1d9c513f52)
+
+#### Dokumentation
 
 | Fil | Beskrivning |
 |-----|-------------|
 | `EEA_Industrial_Reporting_Metadata_v16.pdf` | Metadata-dokumentation |
-| `IED.jpg` | Illustrationsbild |
 | `README.md` | Datasetbeskrivning med käll-länk |
-| `Industrial_dataset_v_16_2026_02_16.notgithub.accdb` | Huvuddatabas (1.9 GB) — **ej på GitHub** |
-| `User friendly .csv files.notgithub.zip` | CSV-export (141 MB) — **ej på GitHub** |
-| `User friendly Excel files.notgithub.zip` | Excel-export (101 MB) — **ej på GitHub** |
 
-**Källa:** [EEA Industrial Emissions Data](https://sdi.eea.europa.eu/data/3bbf28cb-70e8-4073-8fe9-8c1d9c513f52)
+#### CSV-filer (tillgängliga i repot)
 
-> **OBS:** Filer med `.notgithub` i namnet är för stora för GitHub.
-> Hämta dem från SharePoint: [Stora datafiler](https://iconsof.sharepoint.com/:f:/s/ICONSOFgeneral/IgCTKLMgNuVpQoqnMXjUq5GIAT79DrBcbVU3c5e_zgxEj4Q?e=Muefv3)
+Följande CSV-filer finns tillgängliga direkt. De större filerna har förfiltrerats till Norden (Sverige, Norge, Danmark, Finland) för att vara hanterbara.
+
+| Fil | Innehåll | Storlek | Nyckelkolumner |
+|-----|----------|---------|----------------|
+| `F1_2_Air_Releases_Sector` | Luftutsläpp per branschsektor | 3.5 MB | Sektor, ämne, år, mängd |
+| `F1_4_Air_Releases_Facilities` | Luftutsläpp per anläggning — namn, adress, koordinater, utsläpp | 70 MB | FacilityName, CountryCode, Lat, Long, PollutantName, TotalQuantity, ReportingYear |
+| `F2_4_Water_Releases_Facilities` | Vattenutsläpp per anläggning — samma struktur som F1_4 | 49 MB | FacilityName, CountryCode, Lat, Long, PollutantName, TotalQuantity, ReportingYear |
+| `F3_2_Transfers_Facilities` | Avfallstransporter per anläggning — avsändare, mottagare, typ, mängd | 14 MB | FacilityName, WasteHandlerName, Quantity, ReportingYear |
+| `F4_2_WasteTransfers_Facilities` | Avfallstransporter per anläggning — typ, mängd, mottagare | 4.6 MB | FacilityName, CountryCode, Quantity, ReportingYear |
+
+> **Tips:** `F1_4` och `F2_4` är de mest användbara filerna — de innehåller koordinater och utsläpp per anläggning och fungerar som en färdig lead-lista över industriföretag.
 
 ---
 

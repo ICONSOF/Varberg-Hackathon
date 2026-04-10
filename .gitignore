@@ -1,5 +1,6 @@
 # Large files excluded from GitHub
 *.notgithub.*
+*.notgithub/
 
 # Claude Code settings
 .claude/
