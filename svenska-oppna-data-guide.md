@@ -164,19 +164,16 @@ EU:s industriutsläppsdata (IED/E-PRTR) version 16, februari 2026. Utsläppsdata
 | Fil | Beskrivning |
 |-----|-------------|
 | `EEA_Industrial_Reporting_Metadata_v16.pdf` | Metadata-dokumentation |
-| `README.md` | Datasetbeskrivning med käll-länk |
 
 #### CSV-filer (tillgängliga i repot)
 
-Följande CSV-filer finns tillgängliga direkt. De större filerna har förfiltrerats till Norden (Sverige, Norge, Danmark, Finland) för att vara hanterbara.
-
-| Fil | Innehåll | Storlek | Nyckelkolumner |
-|-----|----------|---------|----------------|
-| `F1_2_Air_Releases_Sector` | Luftutsläpp per branschsektor | 3.5 MB | Sektor, ämne, år, mängd |
-| `F1_4_Air_Releases_Facilities` | Luftutsläpp per anläggning — namn, adress, koordinater, utsläpp | 70 MB | FacilityName, CountryCode, Lat, Long, PollutantName, TotalQuantity, ReportingYear |
-| `F2_4_Water_Releases_Facilities` | Vattenutsläpp per anläggning — samma struktur som F1_4 | 49 MB | FacilityName, CountryCode, Lat, Long, PollutantName, TotalQuantity, ReportingYear |
-| `F3_2_Transfers_Facilities` | Avfallstransporter per anläggning — avsändare, mottagare, typ, mängd | 14 MB | FacilityName, WasteHandlerName, Quantity, ReportingYear |
-| `F4_2_WasteTransfers_Facilities` | Avfallstransporter per anläggning — typ, mängd, mottagare | 4.6 MB | FacilityName, CountryCode, Quantity, ReportingYear |
+| Fil | Innehåll | Storlek | Omfång | Nyckelkolumner |
+|-----|----------|---------|--------|----------------|
+| `F1_2_Air_Releases_Sector` | Luftutsläpp per branschsektor | 3.5 MB | Hela EU | Sektor, ämne, år, mängd |
+| `F1_4_Air_Releases_Facilities` | Luftutsläpp per anläggning — namn, adress, koordinater, utsläpp | 70 MB | Hela EU | facilityName, countryName, Longitude, Latitude, PollutantName, TotalQuantity, reportingYear |
+| `F2_4_Water_Releases_Facilities` | Vattenutsläpp per anläggning — samma struktur som F1_4 | 49 MB | Hela EU | facilityName, countryName, Longitude, Latitude, PollutantName, TotalQuantity, reportingYear |
+| `F3_2_Transfers_Facilities` | Avfallstransporter per anläggning — avsändare, mottagare, typ, mängd | 14 MB | Hela EU | facilityName, countryName, Quantity, reportingYear |
+| `F4_2_WasteTransfers_Facilities` | Avfallstransporter per anläggning — typ, mängd, mottagare | 4.6 MB | Norden | facilityName, countryName, Quantity, reportingYear |
 
 > **Tips:** `F1_4` och `F2_4` är de mest användbara filerna — de innehåller koordinater och utsläpp per anläggning och fungerar som en färdig lead-lista över industriföretag.
 

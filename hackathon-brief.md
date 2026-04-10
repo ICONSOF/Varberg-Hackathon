@@ -59,17 +59,17 @@ Appen ska gå att visa live vid presentationen. Den behöver inte vara produktio
 
 ### E-PRTR — Industriutsläppsdata (CSV-filer)
 
-Industrianläggningar i Norden (Sverige, Norge, Danmark, Finland) med namn, adress, koordinater, branschkod och utsläppsdata 2007–2024. **Detta är er mest värdefulla datakälla.** Filerna är förfiltrerade till Norden och kan laddas direkt.
+33 000+ industrianläggningar i EU med namn, adress, koordinater, branschkod (NACE) och utsläppsdata 2007–2024. **Detta är er mest värdefulla datakälla.**
 
-| Fil | Innehåll | Storlek |
-|-----|----------|---------|
-| `F1_4_Air_Releases_Facilities` | Luftutsläpp per anläggning — namn, koordinater, ämne, mängd, år | ~5 MB |
-| `F2_4_Water_Releases_Facilities` | Vattenutsläpp per anläggning — samma struktur som F1_4 | ~4 MB |
-| `F1_1_Air_Releases_National` | Luftutsläpp aggregerat per land | < 1 MB |
-| `F1_2_Air_Releases_Sector` | Luftutsläpp per branschsektor | 3.5 MB |
-| `F3_2_Transfers_Facilities` | Avfallstransporter per anläggning — avsändare, mottagare, typ, mängd | 13 MB |
+| Fil | Innehåll | Storlek | Omfång |
+|-----|----------|---------|--------|
+| `F1_2_Air_Releases_Sector` | Luftutsläpp per branschsektor | 3.5 MB | Hela EU |
+| `F1_4_Air_Releases_Facilities` | Luftutsläpp per anläggning — namn, koordinater, ämne, mängd, år | 70 MB | Hela EU |
+| `F2_4_Water_Releases_Facilities` | Vattenutsläpp per anläggning — samma struktur som F1_4 | 49 MB | Hela EU |
+| `F3_2_Transfers_Facilities` | Avfallstransporter per anläggning — avsändare, mottagare, typ, mängd | 14 MB | Hela EU |
+| `F4_2_WasteTransfers_Facilities` | Avfallstransporter per anläggning — typ, mängd, mottagare | 4.6 MB | Norden |
 
-> **Tips:** Filtrera vidare till Sverige (`CountryCode = "SE"`) om ni bara vill visa svensk data.
+> **Tips:** Filtrera till Sverige (`countryName = "Sweden"`) om ni bara vill visa svensk data. De stora filerna innehåller hela EU — filtrera tidigt!
 
 ### Lokala filer
 
