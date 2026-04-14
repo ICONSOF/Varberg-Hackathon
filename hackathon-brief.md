@@ -34,7 +34,7 @@ A deeper function — report, export, comparison, personalized analysis — unlo
 
 The gate should feel like a natural upgrade path, not a dark pattern.
 
-**Important:** If you only have time to demo the UX, storing the email in browser `localStorage` is acceptable. But apps that capture real leads end-to-end (for example via a form backend, webhook, Google Sheet, Airtable, Supabase, or similar) will score higher on business value.
+**Important:** For this hackathon, storing the email in browser `localStorage` is completely fine. You do **not** need to build a backend, webhook, database, or real CRM flow unless you want to.
 
 ### 3. LinkedIn Share Button (mandatory)
 Every app **must** have a visible "Share on LinkedIn" button for the app URL. Also include:
@@ -164,7 +164,7 @@ Don't stress about deployment. Run it on your laptop during the presentation. If
 ### 1. Working App
 - Demonstrable live (local or deployed)
 - Has email gate that works
-- Browser `localStorage` is acceptable for demoing the flow, but real lead capture counts more strongly toward the business goal
+- Browser `localStorage` is completely acceptable for the email gate
 - Has LinkedIn share button
 - Doesn't need to be production-ready; it needs to work
 
