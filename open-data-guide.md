@@ -144,7 +144,7 @@ Web pages with downloadable Excel/CSV files. Not APIs, but data sources are free
 
 All local data files are under the `files/` folder.
 
-If you're using the English-language hackathon pack, treat the files in `english_documents/` as the canonical participant-facing docs.
+The participant-facing hackathon documents are in the repo root: `hackathon-brief.md`, `hackathon-app-ideas.md`, and `open-data-guide.md`.
 
 ### files/hackathon_data/
 
