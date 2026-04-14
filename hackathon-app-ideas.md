@@ -63,7 +63,7 @@ Some ideas below include optional third sources so teams can choose a simpler or
 |:---:|:---:|:---:|:---:|:---:|
 | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
 
-**Data Sources:** halland_skyddade_omraden.geojson, NVR v3, SMHI MetObs, SMHI Strang, OSM
+**Data Sources:** halland_skyddade_omraden.geojson, NVR v3, SMHI MetObs, SMHI Strång, OSM
 
 ---
 
@@ -77,7 +77,7 @@ Some ideas below include optional third sources so teams can choose a simpler or
 |:---:|:---:|:---:|:---:|:---:|
 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
 
-**Data Sources:** SMHI Strang, SMHI MetObs, Nominatim, SCB REST API or SCB MCP
+**Data Sources:** SMHI Strång, SMHI MetObs, Nominatim, SCB REST API or SCB MCP
 
 ---
 
