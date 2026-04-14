@@ -1,6 +1,6 @@
 # Swedish Open Data — Complete Guide
 
-This guide collects all data sources that can be used directly without registration: REST APIs, downloadable datasets, MCP servers, and local files.
+This guide collects all data sources that can be used directly without registration: REST APIs, downloadable datasets, and local files.
 
 ---
 
@@ -85,25 +85,7 @@ This guide collects all data sources that can be used directly without registrat
 
 ---
 
-## 2. MCP Servers (for AI Agents and Claude)
-
-> **Note:** MCP servers are not REST APIs. They cannot be called with `fetch()` from a browser or standard Node.js. They require an MCP client (Claude Code, Claude Desktop, etc.). If you're building a standard web app, use the **SCB REST API** instead: `https://api.scb.se/OV0104/v1/doris/en/ssd/`
-
-> **Plain-English version:** MCP is for you, the builder, while researching or prototyping with AI tools. It is usually not the right runtime integration for a hackathon web app demo.
-
-MCP servers are integrated into Claude (and other AI clients) via the MCP protocol and provide direct access to large statistical databases.
-
-| Server | Data | MCP URL |
-|--------|------|---------|
-| **SCB** | 1,200+ statistical tables — population, economy, environment, labor, education, etc. Data from 1950s, 312+ regions. | `https://scb-mcp.onrender.com/mcp` |
-| **OECD** | 5,000+ datasets, 38 OECD countries, 17 categories: economy, health, environment, education, energy, trade, etc. | `https://oecd-mcp.onrender.com/mcp` |
-
-**Complete guide with all tools, prompt templates, and installation instructions is in the MCP repo:**
-**https://github.com/ICONSOF/MCP**
-
----
-
-## 3. Downloadable Datasets (files, no API)
+## 2. Downloadable Datasets (files, no API)
 
 ### Naturvårdsverket — Geodata as Shapefiles
 
@@ -140,7 +122,7 @@ Web pages with downloadable Excel/CSV files. Not APIs, but data sources are free
 
 ---
 
-## 4. Local Files (in this repo)
+## 3. Local Files (in this repo)
 
 All local data files are under the `files/` folder.
 
@@ -200,9 +182,8 @@ https://nominatim.openstreetmap.org
 # Map tiles
 https://tile.openstreetmap.org/{z}/{x}/{y}.png
 
-# MCP servers
-https://scb-mcp.onrender.com/mcp
-https://oecd-mcp.onrender.com/mcp
+# SCB direct API
+https://statistikdatabasen.scb.se/api/v2
 ```
 
 ---

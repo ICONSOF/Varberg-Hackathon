@@ -74,10 +74,8 @@ All API endpoints, file paths, and example calls are in `open-data-guide.md`. He
 - **Nominatim** — Address → coordinates (and reverse)
 - **OSM Tiles** — Background maps for Leaflet
 
-### SCB & OECD (via AI agents)
-1,200+ Swedish statistical tables (SCB) and 5,000+ international datasets (OECD). Access via Claude/MCP or the SCB REST API directly.
-
-If you're building a normal web app, treat MCP as a research helper for you during development, not as your app's runtime backend.
+### SCB & OECD
+1,200+ Swedish statistical tables (SCB) and 5,000+ international datasets (OECD). Access them via their official APIs and dataset portals.
 
 ### E-PRTR — Industrial Emissions Data
 33,000+ EU industrial facilities with coordinates, emissions by substance, and data from 2007–2024. **Your most valuable data source.** Pre-filtered Sweden files are ready to use in `files/hackathon_data/`.
