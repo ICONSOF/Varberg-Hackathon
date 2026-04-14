@@ -7,3 +7,6 @@
 - [ ] **Kontrollera beskrivningar och pedagogiskt flöde** — Säkerställ att brief, guide och idéer hänger ihop logiskt och att en ny deltagare kan följa dem steg för steg
 - [ ] **Göra MCP-repot publikt** — Ändra https://github.com/ICONSOF/MCP från privat till publikt så deltagarna kan komma åt det
 - [ ] **branding** - Hyur skall brandingen se ut Icons Of stort och tydligt eller lite gömt???
+
+## Questions:
+- Are people deploying these? Or running locally? 

@@ -153,7 +153,7 @@ Alla lokala datafiler ligger under mappen `files/`.
 
 Shapefiler kan öppnas i QGIS, ArcGIS, eller bearbetas med Python/GeoPandas. GeoJSON fungerar direkt i Leaflet.js.
 
-### files/eea_t_ied-eprtr_p_2007-2024_v16_r00/
+### files/hackathon_data/eprtr_raw/
 
 EU:s industriutsläppsdata (IED/E-PRTR) version 16, februari 2026. Utsläppsdata 2007–2024. 33 000+ namngivna industrianläggningar i EU med adress, koordinater, branschkod (NACE) och utsläppsdata.
 
