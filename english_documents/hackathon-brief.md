@@ -34,8 +34,14 @@ A deeper function — report, export, comparison, personalized analysis — unlo
 
 The gate should feel like a natural upgrade path, not a dark pattern.
 
+**Important:** If you only have time to demo the UX, storing the email in browser `localStorage` is acceptable. But apps that capture real leads end-to-end (for example via a form backend, webhook, Google Sheet, Airtable, Supabase, or similar) will score higher on business value.
+
 ### 3. LinkedIn Share Button (mandatory)
-Every app **must** have a visible "Share on LinkedIn" button with a pre-filled message that includes a link to the app and Icons Of's LinkedIn profile.
+Every app **must** have a visible "Share on LinkedIn" button for the app URL. Also include:
+- a short suggested post text users can copy
+- a visible link to Icons Of's LinkedIn profile
+
+Don't spend hours trying to force custom text into LinkedIn's share dialog — that behavior is limited and can change.
 
 ### 4. At Least 2 Meaningful Data Sources
 Combine at least two meaningful data sources. Geocoding (Nominatim) and map tiles (OSM) don't count — they're infrastructure. The goal is finding an insight that neither source could give you alone.
@@ -70,6 +76,8 @@ All API endpoints, file paths, and example calls are in `open-data-guide.md`. He
 
 ### SCB & OECD (via AI agents)
 1,200+ Swedish statistical tables (SCB) and 5,000+ international datasets (OECD). Access via Claude/MCP or the SCB REST API directly.
+
+If you're building a normal web app, treat MCP as a research helper for you during development, not as your app's runtime backend.
 
 ### E-PRTR — Industrial Emissions Data
 33,000+ EU industrial facilities with coordinates, emissions by substance, and data from 2007–2024. **Your most valuable data source.** Pre-filtered Sweden files are ready to use in `files/hackathon_data/`.
@@ -134,7 +142,7 @@ Each idea splits into parallel tracks (map, data, email gate, design). Decide ea
 ```javascript
 const shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(appUrl)}`;
 ```
-Add it on Day 1 — it's a requirement and takes 5 minutes. To control how your app looks when shared, set Open Graph tags in your HTML:
+Add it on Day 1 — it's a requirement and takes 5 minutes. Pair it with a visible "Copy suggested LinkedIn post" button or text box. To control how your app looks when shared, set Open Graph tags in your HTML:
 ```html
 <meta property="og:title" content="Your compelling result headline" />
 <meta property="og:description" content="What your app does — built by Icons Of" />
@@ -157,7 +165,8 @@ Don't stress about deployment. Run it on your laptop during the presentation. If
 
 ### 1. Working App
 - Demonstrable live (local or deployed)
-- Has email gate that works (even if it just stores to browser localStorage)
+- Has email gate that works
+- Browser `localStorage` is acceptable for demoing the flow, but real lead capture counts more strongly toward the business goal
 - Has LinkedIn share button
 - Doesn't need to be production-ready; it needs to work
 

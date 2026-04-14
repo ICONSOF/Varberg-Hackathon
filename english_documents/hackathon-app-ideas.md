@@ -16,6 +16,14 @@ Choose one of these ideas or use them as inspiration for your own.
 
 ---
 
+## Before You Pick
+
+Every final app must combine at least **2 meaningful data sources**. Nominatim and OSM are useful infrastructure, but they do **not** count toward that requirement on their own.
+
+Some ideas below include optional third sources so teams can choose a simpler or richer version.
+
+---
+
 ## Idea 1: 🗺️ Green Neighborhood Watch — "How close do you live to industry?"
 
 > Enter an address and see which industrial facilities are nearby, what they emit, and what protected nature is in the area.
@@ -26,7 +34,7 @@ Choose one of these ideas or use them as inspiration for your own.
 |:---:|:---:|:---:|:---:|:---:|
 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
 
-**Data Sources:** E-PRTR (F1_4), Nominatim, OSM, Naturvårdsverket GeoJSON
+**Data Sources:** E-PRTR (F1_4), Naturvårdsverket protected areas, Nominatim, OSM
 
 ---
 
@@ -41,7 +49,7 @@ Choose one of these ideas or use them as inspiration for your own.
 |:---:|:---:|:---:|:---:|:---:|
 | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 
-**Data Sources:** E-PRTR (F1_2, F1_4), SCB MCP, OECD MCP
+**Data Sources:** E-PRTR (F1_2, F1_4), SCB REST API or SCB MCP, OECD MCP
 
 ---
 
@@ -55,7 +63,7 @@ Choose one of these ideas or use them as inspiration for your own.
 |:---:|:---:|:---:|:---:|:---:|
 | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
 
-**Data Sources:** halland_skyddade_omraden.geojson, NVR v3, SMHI MetObs, SMHI Strång, OSM
+**Data Sources:** halland_skyddade_omraden.geojson, NVR v3, SMHI MetObs, SMHI Strang, OSM
 
 ---
 
@@ -69,7 +77,7 @@ Choose one of these ideas or use them as inspiration for your own.
 |:---:|:---:|:---:|:---:|:---:|
 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
 
-**Data Sources:** SMHI Strång, SMHI MetObs, Nominatim, SCB MCP
+**Data Sources:** SMHI Strang, SMHI MetObs, Nominatim, SCB REST API or SCB MCP
 
 ---
 
@@ -99,7 +107,7 @@ Choose one of these ideas or use them as inspiration for your own.
 |:---:|:---:|:---:|:---:|:---:|
 | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 
-**Data Sources:** E-PRTR (F1_4), Nominatim
+**Data Sources:** E-PRTR (F1_4), SCB REST API, Nominatim
 
 ---
 
@@ -127,7 +135,7 @@ Choose one of these ideas or use them as inspiration for your own.
 |:---:|:---:|:---:|:---:|:---:|
 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 
-**Data Sources:** SMHI MetObs (historical temperature, parameter 1), Nominatim
+**Data Sources:** SMHI MetObs (historical temperature, parameter 1), SCB REST API, Nominatim
 
 ---
 
@@ -141,7 +149,7 @@ Choose one of these ideas or use them as inspiration for your own.
 |:---:|:---:|:---:|:---:|:---:|
 | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 
-**Data Sources:** E-PRTR (F3_2, F4_2), Nominatim, OSM
+**Data Sources:** E-PRTR (F3_2, F4_2), Naturvardsverket protected areas or SCB regional industry data, Nominatim, OSM
 
 ---
 

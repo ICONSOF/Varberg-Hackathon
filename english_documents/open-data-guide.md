@@ -89,6 +89,8 @@ This guide collects all data sources that can be used directly without registrat
 
 > **Note:** MCP servers are not REST APIs. They cannot be called with `fetch()` from a browser or standard Node.js. They require an MCP client (Claude Code, Claude Desktop, etc.). If you're building a standard web app, use the **SCB REST API** instead: `https://api.scb.se/OV0104/v1/doris/en/ssd/`
 
+> **Plain-English version:** MCP is for you, the builder, while researching or prototyping with AI tools. It is usually not the right runtime integration for a hackathon web app demo.
+
 MCP servers are integrated into Claude (and other AI clients) via the MCP protocol and provide direct access to large statistical databases.
 
 | Server | Data | MCP URL |
@@ -141,6 +143,8 @@ Web pages with downloadable Excel/CSV files. Not APIs, but data sources are free
 ## 4. Local Files (in this repo)
 
 All local data files are under the `files/` folder.
+
+If you're using the English-language hackathon pack, treat the files in `english_documents/` as the canonical participant-facing docs.
 
 ### files/hackathon_data/
 
