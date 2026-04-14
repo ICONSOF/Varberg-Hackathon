@@ -45,6 +45,17 @@ The app should be able to be demonstrated live during the presentation. It doesn
 
 ---
 
+## Branding Guidance
+
+These apps should be **lightly co-branded** by Icons Of, not heavily branded as if they were a finished company product.
+
+- Use a small `Built with Icons Of` or `Built for the Icons Of hackathon` label in the UI.
+- Include Icons Of in the LinkedIn share text, preview metadata, and README.
+- Keep the app name and visual identity centered on the problem or use case, not the company logo.
+- Avoid large hero-branding unless it helps the demo; the idea should feel useful first, promotional second.
+
+---
+
 ## Data Sources Available
 
 All API endpoints, file paths, and example calls are in `open-data-guide.md`. Here's what's available:

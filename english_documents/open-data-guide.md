@@ -211,3 +211,25 @@ Open source, lightweight map library for web apps. Include via CDN:
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 ```
+
+### Leaflet starter example
+
+This is enough to show a map with a local GeoJSON layer from `files/hackathon_data/`:
+
+```html
+<div id="map" style="height: 500px;"></div>
+<script>
+  const map = L.map("map").setView([56.95, 12.49], 8);
+
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "&copy; OpenStreetMap contributors"
+  }).addTo(map);
+
+  fetch("files/hackathon_data/halland_skyddade_omraden.geojson")
+    .then((response) => response.json())
+    .then((geojson) => {
+      L.geoJSON(geojson).addTo(map);
+    });
+</script>
+```
