@@ -75,7 +75,10 @@ All API endpoints, file paths, and example calls are in `open-data-guide.md`. He
 - **OSM Tiles** — Background maps for Leaflet
 
 ### SCB & OECD
-1,200+ Swedish statistical tables (SCB) and 5,000+ international datasets (OECD). Access them via their official APIs and dataset portals.
+- **SCB** — official Swedish statistics via `PxWebApi v2`, including population, labour market, income, prices, transport, trade, energy, environment, and more.
+- **OECD** — international datasets and indicators via OECD Data Explorer and SDMX API, including employment, trade, emissions, climate policy, health, and macroeconomics.
+- Both are useful when you want benchmark or context data around a company, municipality, industry, or country, not just raw environmental measurements.
+- See `open-data-guide.md` for example links, dataset pages, and API entry points.
 
 ### E-PRTR — Industrial Emissions Data
 33,000+ EU industrial facilities with coordinates, emissions by substance, and data from 2007–2024. **Your most valuable data source.** Pre-filtered Sweden files are ready to use in `files/hackathon_data/`.
@@ -119,6 +122,35 @@ Not sure what to build? A separate document (`hackathon-app-ideas.md`) lists 10 
 
 ---
 
+## Deliverables
+
+### 1. Working App
+- Demonstrable live (local or deployed)
+- Has email gate that works
+- Browser `localStorage` is completely acceptable for the email gate
+- Has LinkedIn share button
+- Doesn't need to be production-ready; it needs to work
+
+### 2. Presentation (5–10 minutes + Q&A)
+
+**Suggested structure for a 7-minute talk:**
+1. **1 min:** What problem does your app solve? Why does it matter?
+2. **3–4 min:** Live demo walk-through (show the happy path, hit the email gate, point out one "wow" moment)
+3. **2 min:** How you combined your data sources. What was the unique insight? 
+
+**Pro tips:**
+- Have a backup screenshot or 30-second video demo on your phone in case live demo fails
+- Be ready to answer: "Show how you combined your data sources. What was the unique insight?"
+- The best presentations show, don't tell — let judges try the app themselves
+
+### 3. Source Code
+- Push to GitHub (private is fine, or public for portfolio)
+- Include a README explaining: what the app does, which data sources you used, how to run it
+- The code will be handed over to Icons Of for potential future use
+
+---
+
+
 ## Tips
 
 ### 💡 Tip 1: Use AI Tools
@@ -159,33 +191,6 @@ Don't stress about deployment. Run it on your laptop during the presentation. If
 
 
 
-## Deliverables
-
-### 1. Working App
-- Demonstrable live (local or deployed)
-- Has email gate that works
-- Browser `localStorage` is completely acceptable for the email gate
-- Has LinkedIn share button
-- Doesn't need to be production-ready; it needs to work
-
-### 2. Presentation (5–10 minutes + Q&A)
-
-**Suggested structure for a 7-minute talk:**
-1. **1 min:** What problem does your app solve? Why does it matter?
-2. **3–4 min:** Live demo walk-through (show the happy path, hit the email gate, point out one "wow" moment)
-3. **2 min:** How you combined your data sources. What was the unique insight? 
-
-**Pro tips:**
-- Have a backup screenshot or 30-second video demo on your phone in case live demo fails
-- Be ready to answer: "Show how you combined your data sources. What was the unique insight?"
-- The best presentations show, don't tell — let judges try the app themselves
-
-### 3. Source Code
-- Push to GitHub (private is fine, or public for portfolio)
-- Include a README explaining: what the app does, which data sources you used, how to run it
-- The code will be handed over to Icons Of for potential future use
-
----
 
 ## Red Flags to Avoid
 

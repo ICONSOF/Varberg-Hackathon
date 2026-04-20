@@ -83,6 +83,63 @@ This guide collects all data sources that can be used directly without registrat
 - **Usage:** Background map in Leaflet.js or similar
 - **Requires:** Valid User-Agent header
 
+### SCB — Statistics Sweden / Statistikdatabasen API
+
+- **Base URL:** `https://statistikdatabasen.scb.se/api/v2`
+- **Data:** Official Swedish statistics across population, labour market, income, prices, transport, trade, energy, environment, housing, public finances, and more
+- **Format:** JSON / JSON-stat via API, CSV download via table pages
+- **License / usage:** Open data, free to use
+- **Limits:** SCB states API rate limits apply; PxWebApi v2 allows up to 30 requests per 10 seconds per IP and up to 150,000 data cells per request
+- **How to work with it:** Start from a table page in Statistikdatabasen, inspect the variables, then use the table's API link or the v2 table endpoint
+- **Useful pages:**
+  - Open data overview: `https://www.scb.se/en/services/open-data-api/`
+  - PxWebApi v2: `https://www.scb.se/en/services/open-data-api/pxwebapi/pxapi-2.0/`
+  - Statistical Database start page: `https://www.statistikdatabasen.scb.se/pxweb/en/ssd/`
+- **What kinds of data it has:**
+  - Population by municipality / county / age / sex
+  - Labour market and unemployment
+  - Household income and living conditions
+  - Prices and inflation
+  - Trade, transport, energy, environment and national accounts
+- **Example pages / calls:**
+  ```
+  https://statistikdatabasen.scb.se/pxweb/en/ssd/
+  https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__BE__BE0101__BE0101A/BefolkningNy/
+  https://statistikdatabasen.scb.se/api/v2/tables/TAB5974
+  https://statistikdatabasen.scb.se/api/v2/tables/TAB5974/data?lang=sv&outputFormat=json-stat2
+  ```
+  `TAB5974` is a real SCB table endpoint and returns table metadata plus links to metadata and data.
+
+### OECD — Data Explorer + SDMX API
+
+- **Main data hub:** `https://www.oecd.org/en/data.html`
+- **Datasets catalog:** `https://www.oecd.org/en/data/datasets.html`
+- **Indicators catalog:** `https://www.oecd.org/en/data/indicators.html`
+- **API docs:** `https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html`
+- **Data:** International comparative statistics across employment, trade, emissions, climate policy, health, public finance, innovation, education, and macroeconomics
+- **Format:** SDMX-based API with JSON, CSV, and XML output options
+- **How to work with it:** Open a dataset in OECD Data Explorer, make a selection, then click `Developer API` to get ready-made query URLs
+- **What kinds of data it has:**
+  - Employment and unemployment trends
+  - Trade by enterprise characteristics
+  - Air emissions and greenhouse-gas footprints
+  - Climate policy instruments
+  - GDP, inflation, productivity and other macro indicators
+- **Useful dataset pages:**
+  - Employment database: `https://www.oecd.org/en/data/datasets/oecd-employment-database.html`
+  - Trade by Enterprise Characteristics: `https://www.oecd.org/en/data/datasets/trade-by-enterprise-characteristics-tec.html`
+  - Air Emissions Accounts: `https://www.oecd.org/en/data/datasets/air-emissions-accounts.html`
+  - Greenhouse gas footprint indicators: `https://www.oecd.org/en/data/datasets/greenhouse-gas-footprint-indicators.html`
+  - Environment at a Glance dashboard: `https://www.oecd.org/en/data/dashboards/environment-at-a-glance.html`
+- **Example API calls:**
+  ```
+  https://sdmx.oecd.org/public/rest/dataflow/all
+  https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAAG@DF_NAAG_I/all
+  https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAAG@DF_NAAG_I?dimensionAtObservation=AllDimensions&format=jsondata
+  https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAAG@DF_NAAG_I?format=csvfile
+  ```
+  These are official OECD examples showing how to list dataflows and fetch data in JSON or CSV.
+
 ---
 
 ## 2. Downloadable Datasets (files, no API)
@@ -182,8 +239,14 @@ https://nominatim.openstreetmap.org
 # Map tiles
 https://tile.openstreetmap.org/{z}/{x}/{y}.png
 
-# SCB direct API
-https://statistikdatabasen.scb.se/api/v2
+# SCB docs + API entry points
+https://www.scb.se/en/services/open-data-api/pxwebapi/pxapi-2.0/
+https://www.statistikdatabasen.scb.se/pxweb/en/ssd/
+https://statistikdatabasen.scb.se/api/v2/tables/TAB5974
+
+# OECD API
+https://sdmx.oecd.org/public/rest/dataflow/all
+https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAAG@DF_NAAG_I/all
 ```
 
 ---
