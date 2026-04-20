@@ -87,9 +87,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 **Why it's interesting:** Industrial water pollution is largely invisible — showing it alongside protected drinking water areas creates an immediate "aha" moment.
 
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 
 **Data Sources:** E-PRTR (F2_4), NVR water protection areas (REST API), Nominatim, OSM
 
@@ -101,10 +98,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 **Why it's interesting:** Seeing climate change through the lens of your own lifetime makes it feel real, not abstract — and the "your birth year" hook is impossible not to share.
 
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-
 **Data Sources:** SMHI MetObs (historical temperature, parameter 1), SCB REST API, Nominatim
 
 ---
@@ -114,10 +107,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 > Visualize how industrial waste is transported between facilities and receivers. Sankey diagram + map showing flows. Revealing and unique.
 
 **Why it's interesting:** Industrial waste disappears from public view the moment it leaves a facility — tracing where it actually ends up is genuinely surprising.
-
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 
 **Data Sources:** E-PRTR (F3_2, F4_2), Naturvardsverket protected areas or SCB regional industry data, Nominatim, OSM
 
@@ -129,9 +118,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 **Why it's interesting:** Companies Google themselves constantly — giving them a sustainability scorecard they can share (or quietly act on) is a lead magnet that sells itself.
 
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 
 **Data Sources:** E-PRTR (F1_4, F2_4), SCB REST API, OECD MCP
 
