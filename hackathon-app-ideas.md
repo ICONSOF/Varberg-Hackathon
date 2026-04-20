@@ -1,18 +1,11 @@
 # 💡 App Ideas — Hackathon Sustainability Data
 
-Choose one of these ideas or use them as inspiration for your own.
+Use them as inspiration for your own.
 
 ---
 
 ## Ratings
 
-| Factor | Meaning |
-|--------|---------|
-| 🎯 **Lead Magnet** | How strongly will a user want to give their email? |
-| 🗺️ **Visual Punch** | How beautiful and map-based is the app? |
-| 🧩 **Build Time** | How realistic is it to finish? (5 = easy) |
-| 🦄 **Uniqueness** | Does this already exist? (5 = completely new) |
-| 🔥 **Shareability** | Would people share this on LinkedIn? |
 
 ---
 
@@ -30,10 +23,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 **Why it's interesting:** Most people have no idea what's being released in their neighborhood — this makes it personal and local.
 
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
-
 **Data Sources:** E-PRTR (F1_4), Naturvårdsverket protected areas, Nominatim, OSM
 
 ---
@@ -45,10 +34,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 **Why it's interesting:** Every professional wonders how their industry stacks up — and the answer is rarely flattering.
 
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-
 **Data Sources:** E-PRTR (F1_2, F1_4), SCB REST API or SCB MCP, OECD MCP
 
 ---
@@ -58,10 +43,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 > Interactive map of Halland's protected nature with weather layers and solar radiation. Perfect for municipalities and property companies.
 
 **Why it's interesting:** Protected areas and development pressures are invisible to most people — putting them on a map makes the tension visible.
-
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
 
 **Data Sources:** halland_skyddade_omraden.geojson, NVR v3, SMHI MetObs, SMHI Strång, OSM
 
@@ -73,9 +54,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 **Why it's interesting:** Solar feels abstract until you see actual numbers for your exact address — then it becomes a decision, not a concept.
 
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
 
 **Data Sources:** SMHI Strång, SMHI MetObs, Nominatim, SCB REST API or SCB MCP
 
@@ -86,10 +64,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 > Visualize transport flows along E6/E20, Halmstad harbor, and the West Coast Railway. Simulate: "What if we moved goods from road to rail?"
 
 **Why it's interesting:** The road vs. rail debate is everywhere — this lets you run the numbers yourself and see the CO₂ impact in real time.
-
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
 
 **Data Sources:** Transportstyrelsen (download required), E-PRTR, SCB REST API, OSM
 
@@ -102,10 +76,6 @@ Some ideas below include optional third sources so teams can choose a simpler or
 > Ranking of the largest emitters per region. Filter by substance, see trends. Think "Spotify Wrapped" but for industrial emissions.
 
 **Why it's interesting:** People are shocked by who their biggest local polluters actually are — name recognition makes this instantly shareable.
-
-| 🎯 Lead Magnet | 🗺️ Visual Punch | 🧩 Build Time | 🦄 Uniqueness | 🔥 Shareability |
-|:---:|:---:|:---:|:---:|:---:|
-| ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 
 **Data Sources:** E-PRTR (F1_4), SCB REST API, Nominatim
 
