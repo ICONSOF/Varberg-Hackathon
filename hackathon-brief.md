@@ -39,7 +39,6 @@ The gate should feel like a natural upgrade path, not a dark pattern.
 ### 3. LinkedIn Share Button (mandatory)
 Every app **must** have a visible "Share on LinkedIn" button for the app URL. Also include:
 - a short suggested post text users can copy
-- a visible link to Icons Of's LinkedIn profile
 
 Don't spend hours trying to force custom text into LinkedIn's share dialog — that behavior is limited and can change.
 
@@ -56,6 +55,7 @@ The app should be able to be demonstrated live during the presentation. It doesn
 These apps should be **lightly co-branded** by Icons Of, not heavily branded as if they were a finished company product.
 
 - Use a small `Built with Icons Of` or `Built for the Icons Of hackathon` label in the UI.
+- Add a link to https://www.iconsof.se or https://www.linkedin.com/company/iconsof
 - Include Icons Of in the LinkedIn share text, preview metadata, and README.
 - Keep the app name and visual identity centered on the problem or use case, not the company logo.
 - Avoid large hero-branding unless it helps the demo; the idea should feel useful first, promotional second.
