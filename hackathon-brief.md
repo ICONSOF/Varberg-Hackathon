@@ -4,7 +4,7 @@
 
 Build a web app that makes sustainability data **interesting, useful, and shareable**. The app should be so compelling that a business leader, environmental manager, or curious person voluntarily tests it — and wants more.
 
-**Format:** 5–10 minute presentation + live demo, followed by Q&A
+**Format:** 5–10 minute presentation + live demo, followed by Q&A. In total 20 min for each group. 
 
 ## Why?
 
@@ -43,8 +43,8 @@ Every app **must** have a visible "Share on LinkedIn" button for the app URL. Al
 
 Don't spend hours trying to force custom text into LinkedIn's share dialog — that behavior is limited and can change.
 
-### 4. At Least 2 Meaningful Data Sources
-Combine at least two meaningful data sources. Geocoding (Nominatim) and map tiles (OSM) don't count — they're infrastructure. The goal is finding an insight that neither source could give you alone.
+### 4. Ambition to have at Least 2 Meaningful Data Sources
+Have an ambition to combine at least two meaningful data sources. Geocoding (Nominatim) and map tiles (OSM) don't count — they're infrastructure. The goal is finding an insight that neither source could give you alone.
 
 ### 5. Working Demo
 The app should be able to be demonstrated live during the presentation. It doesn't need to be production-ready but should work.
@@ -147,7 +147,7 @@ Add it on Day 1 — it's a requirement and takes 5 minutes. Pair it with a visib
 ```
 
 ### 💡 Tip 7: Scrape if You Want
-You're not limited to the provided sources. If you find useful sustainability data elsewhere — use it. Just make sure at least 2 sources from this brief are included.
+You're not limited to the provided sources. If you find useful sustainability data elsewhere — use it. Just make sure to have an ambition on at least 2 sources.
 
 ### 💡 Tip 8: Think Shareability
 The app people *want* to show others wins. Ask: *"Would I send this to a colleague?"*
@@ -198,7 +198,7 @@ Don't stress about deployment. Run it on your laptop during the presentation. If
 
 🚩 **"We ran out of time for design"** — A working ugly app beats a beautiful broken one. Finish features, skip polish if you must.
 
-🚩 **"Only our team tested it"** — Get 10+ people to try it during the hackathon. Judges want to see people actually wanted to use it.
+🚩 **"Only our team tested it"** — Get a few people to try it during the hackathon. Judges want to see people actually wanted to use it.
 
 ---
 
