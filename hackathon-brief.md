@@ -60,6 +60,10 @@ These apps should be **lightly co-branded** by Icons Of, not heavily branded as 
 - Keep the app name and visual identity centered on the problem or use case, not the company logo.
 - Avoid large hero-branding unless it helps the demo; the idea should feel useful first, promotional second.
 
+### Branding Assets
+
+Logos, icons, and favicons are available in the `branding/` folder.
+
 ---
 
 ## Data Sources Available
