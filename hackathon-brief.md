@@ -174,7 +174,6 @@ Don't stress about deployment. Run it on your laptop during the presentation. If
 1. **1 min:** What problem does your app solve? Why does it matter?
 2. **3–4 min:** Live demo walk-through (show the happy path, hit the email gate, point out one "wow" moment)
 3. **2 min:** How you combined your data sources. What was the unique insight? 
-4. **Optional:** One metric ("20 people tested it, 8 gave their email")
 
 **Pro tips:**
 - Have a backup screenshot or 30-second video demo on your phone in case live demo fails
