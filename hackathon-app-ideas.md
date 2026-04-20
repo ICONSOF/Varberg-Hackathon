@@ -3,7 +3,7 @@
 Use them as inspiration for your own.
 
 ---
-Tip: Provide an LLM with your data sources (or a .md file listing them) and iterate toward an idea that matches your ambition.
+Tip: Provide an LLM with your favorite data sources OR the open-data-guide.md file and iterate toward an idea that matches your ambition.
 ---
 
 ## Idea 1: 🗺️ Green Neighborhood Watch — "How close do you live to industry?"
