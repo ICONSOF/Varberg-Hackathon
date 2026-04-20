@@ -3,18 +3,7 @@
 Use them as inspiration for your own.
 
 ---
-
-## Ratings
-
-
----
-
-## Before You Pick
-
-Every final app must combine at least **2 meaningful data sources**. Nominatim and OSM are useful infrastructure, but they do **not** count toward that requirement on their own.
-
-Some ideas below include optional third sources so teams can choose a simpler or richer version.
-
+Tip: Provide an LLM with your data sources (or a .md file listing them) and iterate toward an idea that matches your ambition.
 ---
 
 ## Idea 1: 🗺️ Green Neighborhood Watch — "How close do you live to industry?"
@@ -48,18 +37,7 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 ---
 
-## Idea 4: ☀️ Solar Potential Calculator — "How much sun hits your roof?"
-
-> Enter an address and see solar radiation, estimated power generation, and CO₂ savings. Not a solar panel calculator — an energy landscape.
-
-**Why it's interesting:** Solar feels abstract until you see actual numbers for your exact address — then it becomes a decision, not a concept.
-
-
-**Data Sources:** SMHI Strång, SMHI MetObs, Nominatim, SCB REST API or SCB MCP
-
----
-
-## Idea 5: 🚛 Logistics Pulse Halland — "The E6 corridor's climate footprint"
+## Idea 4: 🚛 Logistics Pulse Halland — "The E6 corridor's climate footprint"
 
 > Visualize transport flows along E6/E20, Halmstad harbor, and the West Coast Railway. Simulate: "What if we moved goods from road to rail?"
 
@@ -71,7 +49,7 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 ---
 
-## Idea 6: 🏭 Emissions Ranking — "Top 10 in your region"
+## Idea 5: 🏭 Emissions Ranking — "Top 10 in your region"
 
 > Ranking of the largest emitters per region. Filter by substance, see trends. Think "Spotify Wrapped" but for industrial emissions.
 
@@ -81,7 +59,7 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 ---
 
-## Idea 7: 💧 Water Risk Checker — "How exposed is your municipality?"
+## Idea 6: 💧 Water Risk Checker — "How exposed is your municipality?"
 
 > Combine water emissions from industry (E-PRTR) with protected water environments. Show risk visually on a map — which water bodies are most stressed?
 
@@ -92,7 +70,7 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 ---
 
-## Idea 8: 🌡️ Climate Time Machine — "How weather has changed where you live"
+## Idea 7: 🌡️ Climate Time Machine — "How weather has changed where you live"
 
 > Enter a location and see how temperature has changed over the last 50–100 years, based on SMHI's actual measurement data. Personal, visual, and slightly unsettling.
 
@@ -102,7 +80,7 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 ---
 
-## Idea 9: 🏗️ Waste Map — "Where does the waste go?"
+## Idea 8: 🏗️ Waste Map — "Where does the waste go?"
 
 > Visualize how industrial waste is transported between facilities and receivers. Sankey diagram + map showing flows. Revealing and unique.
 
@@ -112,7 +90,7 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 ---
 
-## Idea 10: 📈 Green Company Card — "Your company's sustainability profile in 30 seconds"
+## Idea 9: 📈 Green Company Card — "Your company's sustainability profile in 30 seconds"
 
 > Search a company name and get a visual "card" summarizing its emissions, industry comparison, and trend. Think baseball card but for sustainability.
 
@@ -125,13 +103,3 @@ Some ideas below include optional third sources so teams can choose a simpler or
 
 ---
 
-## Quick Guide: Which Idea Fits Your Team?
-
-| If you want to... | Choose |
-|-------------------|--------|
-| Build fast and guarantee finishing | **#6 Emissions Ranking** or **#8 Climate Time Machine** |
-| Impress with maps | **#1 Green Neighborhood Watch** or **#7 Water Risk Checker** |
-| Maximize shareability | **#8 Climate Time Machine** or **#10 Green Company Card** |
-| Show technical ambition | **#9 Waste Map** or **#5 Logistics Pulse** |
-| Generate most leads | **#10 Green Company Card** or **#4 Solar Potential Calculator** |
-| Be unique | **#7 Water Risk Checker** or **#9 Waste Map** |
